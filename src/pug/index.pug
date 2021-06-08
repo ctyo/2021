@@ -8,7 +8,7 @@ html(lang='en')
         meta(name='description', content='')
         meta(name='author', content='')
 
-        title Coming Soon - Start Bootstrap Theme
+        title FOSS4G TOKAI 2021 - Spark at Home - Hello LTNS「Long Time No See。ひさしぶり」
 
         link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
 
@@ -34,69 +34,50 @@ html(lang='en')
         .masthead
             .masthead-content.text-white
                 .container-fluid.px-4.px-lg-0
-                    h1.fst-italic.lh-1.mb-4 Our Website is Coming Soon
+                    h1.fst-italic.lh-1.mb-4 FOSS4G TOKAI 2021
                     p.mb-5
-                        | We're working hard to finish the development of this site. Sign up below to receive updates and to be notified when we launch!
-                    
-                    // * * * * * * * * * * * * * * *
-                    // * * SB Forms Contact Form * *
-                    // * * * * * * * * * * * * * * *
-
-                    // This form is pre-integrated with SB Forms.
-                    // To make this form functional, sign up at
-                    // https://startbootstrap.com/solution/contact-forms
-                    // to get an API token!
-
-                    form#contactForm(data-sb-form-api-token='API_TOKEN')
-
-                        // Email address input
-
-                        .row.input-group-newsletter
-                            .col
-                                input#email.form-control(
-                                    type='email',
-                                    placeholder='Enter email address...',
-                                    aria-label='Enter email address...',
-                                    data-sb-validations='required,email'
-                                )
-                            .col-auto
-                                button#submitButton.btn.btn-primary.disabled(type='submit') Notify Me!
-                        .invalid-feedback.mt-2(data-sb-feedback='email:required')
-                            | An email is required.
-                        .invalid-feedback.mt-2(data-sb-feedback='email:email')
-                            | Email is not valid.
-
-                        // Submit success message
-                        //
-                        // This is what your users will see when the form
-                        // has successfully submitted
-
-                        #submitSuccessMessage.d-none
-                            .text-center.mb-3.mt-2
-                                .fw-bolder Form submission successful!
-                                | To activate this form, sign up at
-                                br
-                                a(href='https://startbootstrap.com/solution/contact-forms') https://startbootstrap.com/solution/contact-forms
-
-                        // Submit error message
-                        //
-                        // This is what your users will see when there is
-                        // an error submitting the form
-
-                        #submitErrorMessage.d-none
-                            .text-center.text-danger.mb-3.mt-2 Error sending message!
+                        | Spark at Home 
+                        br
+                        | Hello LTNS「Long Time No See。久しぶり」
+                        br
+                        | 2021/8/28 (土) オンライン 12:00-18:00
+                    p.mb5 
+                        a(href="https://foss4g-tokai2019-party.peatix.com/" target="_blank") 
+                            button.btn.btn-primary セッション参加申し込み
+                    p.mb5 
+                        a(href="https://foss4g-tokai2019-party.peatix.com/" target="_blank")
+                            button.btn.btn-primary アフターセッション申し込み
 
         // Social Icons
         // For more icon options, visit https://fontawesome.com/icons?d=gallery&p=2&s=brands
         .social-icons
             .d-flex.flex-row.flex-lg-column.justify-content-center.align-items-center.h-100.mt-3.mt-lg-0
-                a.btn.btn-dark.m-3(href='#!')
+                a.btn.btn-dark.m-3(href='https://twitter.com/FOSS4GTokai' target='blank')
                     i.fab.fa-twitter
-                a.btn.btn-dark.m-3(href='#!')
+                a.btn.btn-dark.m-3(href='https://www.facebook.com/FOSS4GTokai/' target='_blank')
                     i.fab.fa-facebook-f
-                a.btn.btn-dark.m-3(href='#!')
-                    i.fab.fa-instagram
+        .history 
+            ul 
+                li 
+                    a(href='https://www.osgeo.jp/archives/1107') 2017
+                li
+                    a(href='https://foss4g-tokai.github.io/2018/') 2018                    
+                li
+                    a(href='https://foss4g-tokai.github.io/2019/') 2019
+        .main
+            .main-content
+                include sessions.pug
 
+                include speackers.pug
+
+                include support.pug
+
+                .footer
+                    | FOSS4G TOKAIの活動にご賛同頂けるスポンサーを募集しています．
+                    br
+                    | お問い合わせはFacebookまたはTwitterまで．
+                    br
+                    | © Copyright Foss4g Tokai 2021 - All Rights Reserved
         // Bootstrap core JS
         script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js')
 
