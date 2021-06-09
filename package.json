@@ -1,40 +1,20 @@
 {
-    "title": "Coming Soon",
-    "name": "startbootstrap-coming-soon",
+    "title": "foss4g_tokai_2021",
+    "name": "foss4g_tokai_2021",
     "version": "6.0.2",
     "scripts": {
-        "build": "npm run clean && npm run build:pug && npm run build:scss && npm run build:scripts && npm run build:assets",
+        "build": "npm run clean && npm run build:pug && npm run build:scss && npm run build:scripts && npm run build:assets && npm run build:getdata",
         "build:assets": "node scripts/build-assets.js",
         "build:pug": "node scripts/build-pug.js",
         "build:scripts": "node scripts/build-scripts.js",
         "build:scss": "node scripts/build-scss.js",
+        "build:getdata" : "curl -sL 'https://script.googleusercontent.com/macros/echo?user_content_key=pSa3ySTKV04sTNZVY6P7KDUeDPyVwapkxri6nBOCP2PNfPfhP6W8e0BdbTcrrA9dEIQYgk-vZQxPdwtKvc1ITVJTNaVcChiHm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnK1XKsboaro6NvPwked7S3WI33TQlKpUk38CXbriIdWXvdZGVJD42Geq_jmZebZjwzxgx-D7eMvRZI_GSgE33_qMFI4M3_EDiw&lib=MaJ3Up9JLa5k0v5It58DPGQ0lk4TTBak0' -o ./dist/assets/timetable.json",
         "clean": "node scripts/clean.js",
         "start": "npm run build && node scripts/start.js",
         "start:debug": "npm run build && node scripts/start-debug.js"
     },
-    "description": "Coming Soon is a Bootstrap 4 coming soon page theme.",
-    "keywords": [
-        "css",
-        "sass",
-        "html",
-        "responsive",
-        "theme",
-        "template"
-    ],
-    "homepage": "https://startbootstrap.com/theme/coming-soon",
-    "bugs": {
-        "url": "https://github.com/StartBootstrap/startbootstrap-coming-soon/issues",
-        "email": "feedback@startbootstrap.com"
-    },
+    "description": "using startbootstrap-coming-soon template.",
     "license": "MIT",
-    "author": "Start Bootstrap",
-    "contributors": [
-        "David Miller (https://davidmiller.io/)"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/StartBootstrap/startbootstrap-coming-soon.git"
-    },
     "dependencies": {
         "bootstrap": "5.0.1"
     },
