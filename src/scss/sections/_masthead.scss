@@ -20,7 +20,7 @@
         left: 0;
         height: 100%;
         width: 100%;
-        background-color: rgb(67 212 255 / 85%);
+        background-color: rgb(67 212 255 / 65%);
     }
 
     // Masthead content element
@@ -133,9 +133,9 @@
         }
 
         table {
-            font-size : 120%;
-            
-            tr > * {
+            font-size: 120%;
+
+            tr>* {
                 padding: 1.2rem 0.5rem;
             }
         }
