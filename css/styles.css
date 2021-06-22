@@ -10877,6 +10877,10 @@ video.bg-video {
     display: none;
   }
 }
+.btn {
+  font-size: 1.5rem;
+}
+
 .masthead {
   position: relative;
   overflow: hidden;
@@ -11028,8 +11032,8 @@ video.bg-video {
 }
 .history {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 5px;
+  right: 10px;
   z-index: 3;
 }
 .history a {
