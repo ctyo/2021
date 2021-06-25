@@ -10877,6 +10877,16 @@ video.bg-video {
     display: none;
   }
 }
+@media screen and (max-width: 799px) {
+  .main-content {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 800px) {
+  .main-content {
+    width: 800px;
+  }
+}
 .btn {
   font-size: 1.5rem;
 }
