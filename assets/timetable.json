@@ -2,120 +2,120 @@
   {
     "time": "13:00",
     "title1": "オープニング",
-    "author1": "",
-    "title2": "",
-    "author2": ""
+    "author1": "ー",
+    "title2": "ー",
+    "author2": "ー"
   },
   {
     "time": "13:10",
     "title1": "基調講演　１",
-    "author1": "xxx先生",
-    "title2": "",
-    "author2": ""
+    "author1": "内山裕弥さん",
+    "title2": "ー",
+    "author2": "ー"
   },
   {
-    "time": "13:30",
+    "time": "13:40",
     "title1": "スピーカー１",
-    "author1": "xxx先生",
-    "title2": "スピーカー１０",
-    "author2": "xxx先生"
+    "author1": "",
+    "title2": "スピーカー８",
+    "author2": ""
   },
   {
-    "time": "13:50",
+    "time": "14:00",
     "title1": "スピーカー２",
-    "author1": "xxx先生",
-    "title2": "スピーカー１１",
-    "author2": "xxx先生"
+    "author1": "",
+    "title2": "スピーカー９",
+    "author2": ""
   },
   {
-    "time": "14:10",
+    "time": "14:35",
     "title1": "スピーカー３",
-    "author1": "xxx先生",
-    "title2": "スピーカー１２",
-    "author2": "xxx先生"
-  },
-  {
-    "time": "14:30",
-    "title1": "（休憩）",
     "author1": "",
-    "title2": "",
+    "title2": "スピーカー１０",
     "author2": ""
   },
   {
-    "time": "14:45",
+    "time": "#REF!",
+    "title1": "#REF!",
+    "author1": "#REF!",
+    "title2": "#REF!",
+    "author2": "#REF!"
+  },
+  {
+    "time": "14:55",
     "title1": "スピーカー４",
-    "author1": "xxx先生",
-    "title2": "スピーカー１３",
-    "author2": "xxx先生"
-  },
-  {
-    "time": "15:05",
-    "title1": "スピーカー５",
-    "author1": "xxx先生",
-    "title2": "スピーカー１４",
-    "author2": "xxx先生"
-  },
-  {
-    "time": "15:25",
-    "title1": "スピーカー６",
-    "author1": "xxx先生",
-    "title2": "スピーカー１５",
-    "author2": "xxx先生"
-  },
-  {
-    "time": "15:45",
-    "title1": "（休憩）",
     "author1": "",
-    "title2": "",
+    "title2": "スピーカー１１",
     "author2": ""
   },
   {
-    "time": "16:00",
+    "time": "15:15",
+    "title1": "スピーカー５",
+    "author1": "",
+    "title2": "スピーカー１２",
+    "author2": ""
+  },
+  {
+    "time": "15:50",
+    "title1": "スピーカー６",
+    "author1": "",
+    "title2": "スピーカー１３",
+    "author2": ""
+  },
+  {
+    "time": "#REF!",
+    "title1": "#REF!",
+    "author1": "#REF!",
+    "title2": "#REF!",
+    "author2": "#REF!"
+  },
+  {
+    "time": "16:10",
     "title1": "スピーカー７",
-    "author1": "xxx先生",
-    "title2": "スピーカー１６",
-    "author2": "xxx先生"
+    "author1": "",
+    "title2": "スピーカー１４",
+    "author2": ""
   },
   {
-    "time": "16:20",
-    "title1": "スピーカー８",
-    "author1": "xxx先生",
-    "title2": "スピーカー１７",
-    "author2": "xxx先生"
+    "time": "16:30",
+    "title1": "スポンサー枠１",
+    "author1": "",
+    "title2": "スポンサー枠２",
+    "author2": ""
   },
   {
-    "time": "16:40",
-    "title1": "スピーカー９",
-    "author1": "xxx先生",
-    "title2": "スピーカー１８",
-    "author2": "xxx先生"
+    "time": "#REF!",
+    "title1": "#REF!",
+    "author1": "#REF!",
+    "title2": "#REF!",
+    "author2": "#REF!"
+  },
+  {
+    "time": "16:50",
+    "title1": "クロージング",
+    "author1": "ー",
+    "title2": "ー",
+    "author2": "ー"
   },
   {
     "time": "17:00",
-    "title1": "クロージング",
-    "author1": "",
-    "title2": "",
-    "author2": ""
+    "title1": "（休憩）",
+    "author1": "ー",
+    "title2": "ー",
+    "author2": "ー"
   },
   {
     "time": "17:15",
-    "title1": "（休憩）",
-    "author1": "",
-    "title2": "",
-    "author2": ""
-  },
-  {
-    "time": "17:30",
     "title1": "アンカンファレンス",
-    "author1": "",
-    "title2": "",
-    "author2": ""
+    "author1": "ー",
+    "title2": "ー",
+    "author2": "ー"
   },
   {
-    "time": "18:15",
+    "time": "18:00",
     "title1": "アフターセッション",
-    "author1": "",
-    "title2": "",
-    "author2": ""
+    "author1": "ー",
+    "title2": "ー",
+    "author2": "ー"
   }
 ]
