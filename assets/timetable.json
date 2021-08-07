@@ -15,24 +15,24 @@
   },
   {
     "time": "13:40",
-    "title1": "スピーカー１",
-    "author1": "",
-    "title2": "スピーカー８",
-    "author2": ""
+    "title1": "スポンサー枠１",
+    "author1": "Here",
+    "title2": "ー",
+    "author2": "ー"
   },
   {
     "time": "14:00",
-    "title1": "スピーカー２",
-    "author1": "",
-    "title2": "スピーカー９",
-    "author2": ""
+    "title1": "スポンサー枠２",
+    "author1": "Oracle 山崎さん",
+    "title2": "ー",
+    "author2": "ー"
   },
   {
     "time": "14:35",
     "title1": "スピーカー３",
-    "author1": "",
+    "author1": "喜多　耕一",
     "title2": "スピーカー１０",
-    "author2": ""
+    "author2": "向直人"
   },
   {
     "time": "#REF!",
@@ -44,23 +44,23 @@
   {
     "time": "14:55",
     "title1": "スピーカー４",
-    "author1": "",
+    "author1": "杉本直也",
     "title2": "スピーカー１１",
-    "author2": ""
+    "author2": "Taro Matsuzawa"
   },
   {
     "time": "15:15",
     "title1": "スピーカー５",
-    "author1": "",
+    "author1": "吉中 輝彦",
     "title2": "スピーカー１２",
-    "author2": ""
+    "author2": "嘉山陽一"
   },
   {
     "time": "15:50",
     "title1": "スピーカー６",
-    "author1": "",
+    "author1": "家田　浩之",
     "title2": "スピーカー１３",
-    "author2": ""
+    "author2": "坂ノ下 勝幸"
   },
   {
     "time": "#REF!",
@@ -72,16 +72,16 @@
   {
     "time": "16:10",
     "title1": "スピーカー７",
-    "author1": "",
+    "author1": "道下　亮",
     "title2": "スピーカー１４",
-    "author2": ""
+    "author2": "未定"
   },
   {
     "time": "16:30",
-    "title1": "スポンサー枠１",
-    "author1": "",
-    "title2": "スポンサー枠２",
-    "author2": ""
+    "title1": "スピーカー８",
+    "author1": "荒木光一",
+    "title2": "スピーカー９",
+    "author2": "未定"
   },
   {
     "time": "#REF!",
