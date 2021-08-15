@@ -76,10 +76,21 @@ html(lang='ja')
                     a(href='https://foss4g-tokai.github.io/2019/') 2019
         .main
             .main-content(style={padding:'5px 10px'})
+                ul.pagelink
+                    li 
+                        a(href='#about') FOSS4Gとは
+                    li 
+                        a(href='#codeofconduct') 行動規範
+                    li
+                        a(href='#sessions') タイムテーブル
+                    li
+                        a(href='#backgroundimage') 背景画像プレゼント         
+
+                hr 
 
                 // -  TODO : 定義コメントを外してセッションページを復活させる            
                 include includes/support.pug
-                
+
                 hr
 
                 include includes/sessions.pug
