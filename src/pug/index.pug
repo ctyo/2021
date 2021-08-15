@@ -78,11 +78,18 @@ html(lang='ja')
             .main-content(style={padding:'5px 10px'})
 
                 // -  TODO : 定義コメントを外してセッションページを復活させる            
-                //include sessions.pug
+                include includes/support.pug
+                
+                hr
+
+                include includes/sessions.pug
+
+                hr
+
                 //include speackers.pug
                 include includes/backgroundimage.pug
 
-                include includes/support.pug
+                hr
 
                 .footer
                     | FOSS4G TOKAIの活動にご賛同頂けるスポンサーを募集しています．
