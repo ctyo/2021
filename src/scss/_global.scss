@@ -42,6 +42,33 @@ video.bg-video {
     z-index: 0;
 }
 
+ul.pagelink {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.pagelink {
+
+    a,
+    a:visited {
+        color: #23284c;
+        margin-left: 10px;
+        margin-right: 10px;
+
+    }
+}
+
+hr {
+    margin: 3em 0;
+    border: none;
+    color: transparent;
+}
+
+#timetable {
+    font-size: 100%;
+}
+
 // Mobile fallback for touch screen devices which typically
 // do not load HTML video
 
