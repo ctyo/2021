@@ -21,14 +21,16 @@ fetch('./assets/timetable.json')
         newCell.appendChild(document.createTextNode(row.time));
         newCell = newRow.insertCell();
 
-        newCell.appendChild(document.createTextNode(row.title1));
+        const title1 = isEmptyString(row.content1) ? row.title1 : row.content1;
+        newCell.appendChild(document.createTextNode(title1));
         if (!isEmptyString(row.author1)) {
             newCell.appendChild(document.createElement('br')); 
             newCell.appendChild(document.createTextNode(' (' + row.author1 + ')'));
         }
         
         newCell = newRow.insertCell();
-        newCell.appendChild(document.createTextNode(row.title2));
+        const title2 = isEmptyString(row.content2) ? row.title2 : row.content2;
+        newCell.appendChild(document.createTextNode(title2));
         if (!isEmptyString(row.author2)) {
             newCell.appendChild(document.createElement('br')); 
             newCell.appendChild(document.createTextNode(' (' + row.author2 + ')'));
