@@ -68,23 +68,15 @@
         </div>
         <div class="main">
             <div class="main-content" style="padding: 5px 10px">
+                <ul class="pagelink">
+                    <li><a href="#about">FOSS4Gとは</a></li>
+                    <li><a href="#codeofconduct">行動規範</a></li>
+                    <li><a href="#sessions">タイムテーブル</a></li>
+                    <li><a href="#backgroundimage">背景画像プレゼント</a></li>
+                </ul>
+                <hr />
                 <!-- -  TODO : 定義コメントを外してセッションページを復活させる            -->
-                <!--include sessions.pug-->
-                <!--include speackers.pug-->
-                <h2 class="mb-4" id="backgroundimage">
-                    背景画像プレゼント
-                    <p>
-                        セッション・懇親会参加のバーチャル背景に利用できるオリジナル背景画像を配布します。
-                        <br />
-                        ご自由にご利用ください。
-                    </p>
-                    <p>
-                        <a href="assets/img/1.png" download="背景画像1"><img src="assets/img/1.png" style="width: 80%; max-width: 100%; padding: 1% 5%" /></a>
-                        <a href="assets/img/2.png" download="背景画像2"><img src="assets/img/2.png" style="width: 80%; max-width: 100%; padding: 1% 5%" /></a>
-                        <a href="assets/img/3.png" download="背景画像3"><img src="assets/img/3.png" style="width: 80%; max-width: 100%; padding: 1% 5%" /></a>
-                    </p>
-                </h2>
-                <h2 class="mb-4">
+                <h2 class="mb-4" id="about">
                     FOSS4Gとは
                     <p><img src="assets/img/tokai-logo-2-436x308.png" style="width: 300px; max-width: 100%" /></p>
                     <p>
@@ -109,9 +101,9 @@
                     <br />
                     <br />
                 </h2>
-                <h2 class="mb-4">
+                <h2 class="mb-4" id="codeofconduct">
                     行動規範（CODE OF CONDUCT）
-                    <p style="max-width: 800px; word-break: keep-all; margin: 2em 0">
+                    <p style="max-width: 800px; margin: 2em 0">
                         FOSS4G TOKAIでは，皆様に心地よく，そして楽しく参加していただけるよう，行動規範を設けています．
                         <br />
                         私たちは，性別，年齢，性的指向，身体的特徴，人種や職業，思想や信条や生き方，技術力や技術の選択・手法などのさまざまな個人のありかたに対して，ハラスメントを許容しません．
@@ -128,6 +120,38 @@
                 <!-- TBD-->
                 <!-- h2.mb-4 運営スタッフ-->
                 <!-- TBD-->
+                <hr />
+                <h2 class="mb-4" id="sessions">タイムテーブル</h2>
+                <p>詳細なセッション内容は後日公開されます。</p>
+                <div class="table-responsive">
+                    <table class="table table-hover" id="timetable">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th scope="col">A会場</th>
+                                <th scope="col">B会場</th>
+                            </tr>
+                        </thead>
+                        <tbody><tr></tr></tbody>
+                    </table>
+                </div>
+                <script src="js/scripts.js"></script>
+                <hr />
+                <!--include speackers.pug-->
+                <h2 class="mb-4" id="backgroundimage">
+                    背景画像プレゼント
+                    <p>
+                        セッション・懇親会参加のバーチャル背景に利用できるオリジナル背景画像を配布します。
+                        <br />
+                        ご自由にご利用ください。
+                    </p>
+                    <p>
+                        <a href="assets/img/1.png" download="背景画像1"><img src="assets/img/1.png" style="width: 80%; max-width: 100%; padding: 1% 5%" /></a>
+                        <a href="assets/img/2.png" download="背景画像2"><img src="assets/img/2.png" style="width: 80%; max-width: 100%; padding: 1% 5%" /></a>
+                        <a href="assets/img/3.png" download="背景画像3"><img src="assets/img/3.png" style="width: 80%; max-width: 100%; padding: 1% 5%" /></a>
+                    </p>
+                </h2>
+                <hr />
                 <div class="footer">
                     FOSS4G TOKAIの活動にご賛同頂けるスポンサーを募集しています．
                     <br />

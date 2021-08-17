@@ -10867,6 +10867,29 @@ video.bg-video {
   z-index: 0;
 }
 
+ul.pagelink {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.pagelink a,
+.pagelink a:visited {
+  color: #23284c;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+hr {
+  margin: 3em 0;
+  border: none;
+  color: transparent;
+}
+
+#timetable {
+  font-size: 100%;
+}
+
 @media (pointer: coarse) and (hover: none) {
   body {
     background: url("../assets/img/bg-mobile-fallback.jpg") #f9ffdc no-repeat center center scroll;

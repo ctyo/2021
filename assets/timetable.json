@@ -3,119 +3,153 @@
     "time": "13:00",
     "title1": "オープニング",
     "author1": "ー",
+    "content1": "",
     "title2": "ー",
-    "author2": "ー"
+    "author2": "ー",
+    "content2": ""
   },
   {
     "time": "13:10",
     "title1": "基調講演　１",
-    "author1": "内山裕弥さん",
+    "author1": "内山 裕弥さん",
+    "content1": "３D都市モデルが実現する未来―国土交通省Project PLATEAU",
     "title2": "ー",
-    "author2": "ー"
+    "author2": "ー",
+    "content2": ""
   },
   {
     "time": "13:40",
     "title1": "スポンサー枠１",
     "author1": "Here",
+    "content1": "HERE位置情報サービスでCOVIDの課題を解決",
     "title2": "ー",
-    "author2": "ー"
+    "author2": "ー",
+    "content2": ""
   },
   {
     "time": "14:00",
     "title1": "スポンサー枠２",
     "author1": "Oracle 山崎さん",
+    "content1": "オラクルクラウドがGISと相性がいい理由",
     "title2": "ー",
-    "author2": "ー"
+    "author2": "ー",
+    "content2": ""
+  },
+  {
+    "time": "14:20",
+    "title1": "（休憩）",
+    "author1": "ー",
+    "content1": "",
+    "title2": "ー",
+    "author2": "ー",
+    "content2": ""
   },
   {
     "time": "14:35",
     "title1": "スピーカー３",
     "author1": "喜多　耕一",
+    "content1": "自治体HPにもベクタタイルの時代が来たか！",
     "title2": "スピーカー１０",
-    "author2": "向直人"
-  },
-  {
-    "time": "#REF!",
-    "title1": "#REF!",
-    "author1": "#REF!",
-    "title2": "#REF!",
-    "author2": "#REF!"
+    "author2": "向 直人",
+    "content2": "国土地理院の標高APIを利用した事故データセットの構築"
   },
   {
     "time": "14:55",
     "title1": "スピーカー４",
-    "author1": "杉本直也",
+    "author1": "杉本 直也",
+    "content1": "静岡県が目指す「VIRTUAL SHIZUOKA構想」とは？",
     "title2": "スピーカー１１",
-    "author2": "Taro Matsuzawa"
+    "author2": "Taro Matsuzawa",
+    "content2": "MapLibreとtile.openstreetmap.jpで始めるベクトル地図プログラミング"
   },
   {
     "time": "15:15",
     "title1": "スピーカー５",
     "author1": "吉中 輝彦",
+    "content1": "QGISで見る3D点群",
     "title2": "スピーカー１２",
-    "author2": "嘉山陽一"
+    "author2": "嘉山 陽一",
+    "content2": "スマートフォンを利用した災害時情報収集システムの開発"
+  },
+  {
+    "time": "15:35",
+    "title1": "（休憩）",
+    "author1": "ー",
+    "content1": "",
+    "title2": "ー",
+    "author2": "ー",
+    "content2": ""
   },
   {
     "time": "15:50",
     "title1": "スピーカー６",
     "author1": "家田　浩之",
+    "content1": "「流域治水 × データ」について行ったり来たりしながら考える",
     "title2": "スピーカー１３",
-    "author2": "坂ノ下 勝幸"
-  },
-  {
-    "time": "#REF!",
-    "title1": "#REF!",
-    "author1": "#REF!",
-    "title2": "#REF!",
-    "author2": "#REF!"
+    "author2": "坂ノ下 勝幸",
+    "content2": "君でも出来る！ジオアプリ開発のススメ"
   },
   {
     "time": "16:10",
     "title1": "スピーカー７",
-    "author1": "道下　亮",
+    "author1": "道下 亮",
+    "content1": "リモセンのツボ：よくあるご質問への回答",
     "title2": "スピーカー１４",
-    "author2": "未定"
+    "author2": "募集中",
+    "content2": ""
   },
   {
     "time": "16:30",
     "title1": "スピーカー８",
-    "author1": "荒木光一",
+    "author1": "荒木 光一",
+    "content1": "物体検出AIと地図上でのマッピング",
     "title2": "スピーカー９",
-    "author2": "未定"
-  },
-  {
-    "time": "#REF!",
-    "title1": "#REF!",
-    "author1": "#REF!",
-    "title2": "#REF!",
-    "author2": "#REF!"
+    "author2": "募集中",
+    "content2": ""
   },
   {
     "time": "16:50",
     "title1": "クロージング",
     "author1": "ー",
+    "content1": "",
     "title2": "ー",
-    "author2": "ー"
+    "author2": "ー",
+    "content2": ""
   },
   {
     "time": "17:00",
     "title1": "（休憩）",
     "author1": "ー",
+    "content1": "",
     "title2": "ー",
-    "author2": "ー"
+    "author2": "ー",
+    "content2": ""
   },
   {
     "time": "17:15",
     "title1": "アンカンファレンス",
     "author1": "ー",
+    "content1": "",
     "title2": "ー",
-    "author2": "ー"
+    "author2": "ー",
+    "content2": ""
   },
   {
     "time": "18:00",
     "title1": "アフターセッション",
     "author1": "ー",
+    "content1": "",
     "title2": "ー",
-    "author2": "ー"
+    "author2": "ー",
+    "content2": ""
+  },
+  {
+    "time": "",
+    "title1": "LT大会",
+    "author1": "",
+    "content1": "",
+    "title2": "",
+    "author2": "",
+    "content2": ""
   }
 ]
