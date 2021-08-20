@@ -10894,6 +10894,13 @@ a:visited {
   font-size: 100%;
 }
 
+.author {
+  font-size: 90%;
+  color: #515151;
+  margin: 5px 0;
+  word-break: keep-all;
+}
+
 @media (pointer: coarse) and (hover: none) {
   body {
     background: url("../assets/img/bg-mobile-fallback.jpg") #f9ffdc no-repeat center center scroll;
