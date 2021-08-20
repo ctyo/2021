@@ -65,8 +65,11 @@ hr {
     color: transparent;
 }
 
-a,
 a:visited {
+    color: #28a9ff;
+}
+
+.mb-4 a {
     color: #28a9ff !important
 }
 
