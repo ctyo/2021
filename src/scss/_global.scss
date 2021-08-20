@@ -73,6 +73,13 @@ a:visited {
     font-size: 100%;
 }
 
+.author {
+    font-size: 90%;
+    color: #515151;
+    margin: 5px 0;
+    word-break: keep-all;
+}
+
 // Mobile fallback for touch screen devices which typically
 // do not load HTML video
 

@@ -25,15 +25,28 @@ fetch('./assets/timetable.json')
         newCell.appendChild(document.createTextNode(title1));
         if (!isEmptyString(row.author1)) {
             newCell.appendChild(document.createElement('br')); 
-            newCell.appendChild(document.createTextNode(' (' + row.author1 + ')'));
+            const author1 = document.createElement('span')
+            author1.className = 'author'
+            author1.appendChild(document.createTextNode(row.author1));
+            if (!isEmptyString(row.belong1)) {
+                author1.appendChild(document.createElement('br')); 
+                author1.appendChild(document.createTextNode(row.belong1));
+            }
+            newCell.appendChild(author1);
         }
-        
         newCell = newRow.insertCell();
         const title2 = isEmptyString(row.content2) ? row.title2 : row.content2;
         newCell.appendChild(document.createTextNode(title2));
         if (!isEmptyString(row.author2)) {
             newCell.appendChild(document.createElement('br')); 
-            newCell.appendChild(document.createTextNode(' (' + row.author2 + ')'));
+            const author2 = document.createElement('span')
+            author2.className = 'author'
+            author2.appendChild(document.createTextNode(row.author2));
+            if (!isEmptyString(row.belong2)) {
+                author2.appendChild(document.createElement('br')); 
+                author2.appendChild(document.createTextNode(row.belong2));
+            }
+            newCell.appendChild(author2);
         }        
     });
 
