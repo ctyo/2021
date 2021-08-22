@@ -10926,6 +10926,31 @@ a:visited {
     width: 800px;
   }
 }
+.speakers .speaker {
+  display: flex;
+  margin: 3em 0;
+}
+@media screen and (max-width: 799px) {
+  .speakers .speaker .image img {
+    width: 100px;
+  }
+}
+@media screen and (min-width: 800px) {
+  .speakers .speaker .image img {
+    width: 200px;
+  }
+}
+.speakers h4, .speakers .h4 {
+  font-size: 1.3rem;
+  line-height: 1.8em;
+}
+.speakers p {
+  font-size: 1.1rem !important;
+}
+.speakers p.belong {
+  color: grey;
+}
+
 .btn {
   font-size: 1.5rem;
 }
