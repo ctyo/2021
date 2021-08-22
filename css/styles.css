@@ -10890,7 +10890,8 @@ a:visited {
   color: #28a9ff;
 }
 
-.mb-4 a {
+.mb-4 a,
+#timetable a {
   color: #28a9ff !important;
 }
 
