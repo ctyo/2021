@@ -121,7 +121,13 @@ a:visited {
 
     .speaker .image {
         img {
-            width: 200px;
+            @media screen and (max-width: 799px) {
+                width: 100px;
+            }
+
+            @media screen and (min-width: 800px) {
+                width: 200px;
+            }
         }
     }
 
